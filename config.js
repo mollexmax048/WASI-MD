@@ -7,5 +7,5 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || "Y28j0awL#NAWK6UT9DHcyCPXJqmHScJ-GblA1tbaR0RcNQl7l2qE",
 MONGODB: process.env.MONGODB || "mongodb+srv://Maher:Zubair@sigma-male.ggwx4gc.mongodb.net/?retryWrites=true&w=majority",
-  MODE :  process.env.MODE || "", // PUT PUBLIC OR PRIVATE
+  MODE :  process.env.MODE || "public", // PUT PUBLIC OR PRIVATE
 };
